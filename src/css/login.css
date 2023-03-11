@@ -1,0 +1,51 @@
+.login-wrap{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(5, 29, 74) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-wrap img{
+    width: 5em;
+    height: 5em;
+    margin: 2em auto;
+}
+
+.login-wrap form{
+    width: 550px;
+    padding: 2em;
+    background-color: rgb(5, 41, 109) !important;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login-wrap form label{
+    color: #fff;
+    font-weight: bold;
+}
+
+.login-wrap form button{
+    margin-top: 2em;
+    padding: .6em !important;
+    font-size: 1.2em !important;
+    background-color: rgb(19, 77, 183) !important;
+}
+
+.login-wrap form h1{
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .login-wrap form{
+        max-width: 500px;
+    }
+}

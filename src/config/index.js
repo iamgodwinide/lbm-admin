@@ -1,5 +1,5 @@
 export const Config = {
-    API_URL: 'https://loveblazersmobile.com/api/admin',
+    API_URL: 'https://blm-mobile.site/api/admin',
 }
 
 export const makeGetRequest = async (url, headers = {}) => {
